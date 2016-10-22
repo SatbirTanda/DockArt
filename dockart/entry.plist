@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = DockArt;
+	cell = PSLinkCell;
+	detail = DockArtListController;
+	icon = DockArt.png;
+	isController = 1;
+	label = DockArt;
+    };
+}

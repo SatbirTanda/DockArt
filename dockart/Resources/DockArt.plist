@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enable or Disable Tweak:</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.sst1337.DockArt</string>
+			<key>key</key>
+			<string>OnOff</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+
+				<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Set Image: (Requires Respring to take effect)</string>
+		</dict>
+
+		<dict>
+			<key>action</key>
+			<string>selectPhoto</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Select Image</string>
+		</dict>
+
+		<dict>
+		    <key>cell</key>
+		    <string>PSEditTextCell</string>
+		    <key>id</key>
+		    <string>Image Path</string>
+		    <key>placeholder</key>
+		    <string>Paste image path.</string>
+		    <key>defaults</key>
+		    <string>com.sst1337.DockArt</string>
+		    <key>key</key>
+		    <string>Image Path</string>
+		    <key>label</key>
+		    <string>Image Path</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.sst1337.DockArt</string>
+			<key>key</key>
+			<string>Size To Fit</string>
+			<key>label</key>
+			<string>Size To Fit</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>All Changes Require Respring:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Report Bugs or Contact:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>linkToMyTwitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Developer (@sst1337) on Twitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>© 2015-2016 sst1337</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>DockArt</string>
+</dict>
+</plist>
