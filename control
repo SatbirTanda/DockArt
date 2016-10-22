@@ -1,9 +1,0 @@
-Package: com.sst1337.dockart
-Name: DockArt
-Depends: mobilesubstrate
-Version: 1.0.2
-Architecture: iphoneos-arm
-Description: Add an image to your dock!
-Maintainer: sst1337 <1337sst@gmail.com>
-Author: sst1337
-Section: Tweaks
